@@ -1,2 +1,22 @@
-User name: <input type="text" name="username">
-Password: <input type="password" name="password">
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h2>Welcome to Asset Management app.</h2>
+            <p class="pt-3"> We are glad to see you here.</p>
+        </div>
+        <div class="col-6 right-block">
+            <form action="">
+                <form>
+                    <label for="">User ID:</label>
+                    <input type="text" name="username" class="userName col-12" [(ngModel)]="username">
+                </form>
+                <form action="">
+                    <label for="">Password</label>
+                    <input type="password" placeholder="" name="password" class="password col-12" [(ngModel)]="password">
+                </form>
+                <button>Login</button>
+            </form>
+        </div>
+    </div>
+
+</div>
